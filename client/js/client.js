@@ -2,7 +2,7 @@
   'use strict';
 
   var params = (new URL(document.location)).searchParams;
-  var serverAddress = params.get('server') || 'ws://localhost:8084';
+  var serverAddress = params.get('server') || 'ws://pneuma:8084';
 
   var ui = new UI({
     content:          document.getElementById('content'),
