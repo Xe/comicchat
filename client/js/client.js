@@ -2,7 +2,7 @@
   'use strict';
 
   var params = (new URL(document.location)).searchParams;
-  var serverAddress = params.get('server') || 'wss://comicchat.christine.website';
+  var serverAddress = params.get('server') || 'wss://comicchat.christine.website/ws';
 
   var ui = new UI({
     content:          document.getElementById('content'),
