@@ -32,7 +32,7 @@
 
       // Join default room
       if (window.location.hash === '') {
-        window.location.hash = '#!';
+        window.location.hash = '#xeserv';
       }
 
       ws.send(JSON.stringify({
